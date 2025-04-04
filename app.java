@@ -17,7 +17,7 @@ public class SistemaDeCompras {
         ArrayList<Produto> carrinho = new ArrayList<>();
 
         while (true) {
-            System.out.println("\nMENU:");
+            System.out.println("Escolha um item do menu \nMENU:");
             System.out.println("1. Adicionar produto ao carrinho");
             System.out.println("2. Visualizar carrinho");
             System.out.println("3. Finalizar compra");
