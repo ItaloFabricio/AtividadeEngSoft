@@ -63,6 +63,16 @@ public class SistemaDeCompras {
                     return;
                 default:
                     System.out.println("Opção inválida. Tente novamente.");
+                case 5;
+                    System.out.println("\nDigite o número do produto a ser removido: ");
+                    int index = scanner.nextInt() - 1;
+                    if (index >= 0 && index < carrinho.size()) {
+                        carrinho.remove(index);
+                        System.out.println("Produto removido com sucesso!");
+                    } else {
+                        System.out.println("Número inválido!");
+                    }
+                    break;
             }
         }
     }
